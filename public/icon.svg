@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f766e" />
+      <stop offset="100%" stop-color="#134e4a" />
+    </linearGradient>
+    <linearGradient id="cream" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fefcf9" />
+      <stop offset="100%" stop-color="#f5ede0" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="108" fill="url(#bg)" />
+  <!-- Sewing Shears & Measuring Tape Motif in Cream/Teal -->
+  <circle cx="256" cy="256" r="170" fill="none" stroke="url(#cream)" stroke-width="8" stroke-dasharray="16 12" opacity="0.5" />
+  <g transform="translate(106, 126)">
+    <!-- Measuring needle and suit collar silhouette -->
+    <path d="M150 20 L220 120 L150 160 L80 120 Z" fill="none" stroke="url(#cream)" stroke-width="12" stroke-linejoin="round" />
+    <path d="M150 160 L150 240" stroke="url(#cream)" stroke-width="12" stroke-linecap="round" />
+    <circle cx="150" cy="190" r="10" fill="#f5ede0" />
+    <circle cx="150" cy="225" r="10" fill="#f5ede0" />
+    <!-- Monogram Darzify -->
+    <text x="150" y="295" text-anchor="middle" fill="#ffffff" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="800" font-size="32" letter-spacing="2">DARZIFY</text>
+    <text x="150" y="325" text-anchor="middle" fill="#f5ede0" font-family="'Noto Sans Arabic', Arial, sans-serif" font-weight="600" font-size="20">درزیفائی</text>
+  </g>
+</svg>

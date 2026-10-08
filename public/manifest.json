@@ -1,0 +1,26 @@
+{
+  "id": "/",
+  "name": "Darzify — Digital Tailor Shop System",
+  "short_name": "Darzify",
+  "description": "Darzify digital tailor shop management, offline measurement intake, thermal printing, and PDF receipts.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#faf7f2",
+  "theme_color": "#0d9488",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

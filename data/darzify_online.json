@@ -1,0 +1,310 @@
+{
+  "admin": {
+    "adminId": "admin_darzify",
+    "username": "admin",
+    "isInitialized": true,
+    "pinSalt": "5d4a02c10f4b9acf06979344e05f8d42",
+    "pinHash": "ee9bbf296fdafac8cfea6abd29f867ed3bb5ba28a00ccd8eab90612fd1a8e669dde981e8c5b41e2539fafa99975a6ceed74ae13576696304e8e1f468179434d6",
+    "recoveryEmail": "admin@darzify.pk",
+    "isEmailVerified": true,
+    "recoveryPhone": "03338889973",
+    "isPhoneVerified": true,
+    "updatedAt": 1791377005013
+  },
+  "shopProfile": {
+    "id": "default_shop",
+    "shopName": "Darzify",
+    "ownerName": "Abdul Mateen Khan",
+    "phone": "03426454541",
+    "address": "The Vector Limited, Peshawar",
+    "disclaimer": "سوٹ لینے آئیں تو یہ پرچی ساتھ لائیں۔",
+    "defaultRate": 0,
+    "defaultDeliveryDays": 7,
+    "printerName": "SpeedX 58mm"
+  },
+  "orders": [
+    {
+      "id": "ord_1791183781179",
+      "slipNumber": 5,
+      "customerId": "cust_1791183781158",
+      "customerPhone": "ewfsfsfa",
+      "customerName": "fssfas",
+      "bookingDate": "05/10/2026",
+      "returnDate": "12/10/2026",
+      "status": "BOOKED",
+      "items": [
+        {
+          "id": "item_1791183781179",
+          "garmentType": "SHALWAR_KAMEEZ",
+          "recipientTag": "For Myself",
+          "quantity": 1,
+          "unitRate": 2500,
+          "measurements": {},
+          "design": {
+            "collarStyle": "BAIN",
+            "cuffStyle": "SQUARE",
+            "damanStyle": "SQUARE",
+            "pockets": [
+              "FRONT",
+              "SIDE",
+              "SHALWAR"
+            ],
+            "extras": [
+              "DOUBLE_STITCH"
+            ]
+          }
+        }
+      ],
+      "totalAmount": 2500,
+      "advanceAmount": 0,
+      "balanceAmount": 2500,
+      "paymentMethod": "CASH",
+      "specialInstructions": "",
+      "tailoringNotes": "",
+      "createdAt": 1791183781179,
+      "updatedAt": 1791183781179,
+      "verificationCode": "DZ-KS5KEG",
+      "tamperHash": "1442d2837894565fde565bb314aba1da45f204859e9481e62c0486581efccad9"
+    },
+    {
+      "id": "ord_1791183644579",
+      "slipNumber": 4,
+      "customerId": "cust_1791183644554",
+      "customerPhone": "42423234423",
+      "customerName": "24342432",
+      "bookingDate": "05/10/2026",
+      "returnDate": "12/10/2026",
+      "status": "READY",
+      "items": [
+        {
+          "id": "item_1791183644579",
+          "garmentType": "SHALWAR_KAMEEZ",
+          "recipientTag": "For Myself",
+          "quantity": 1,
+          "unitRate": 2790,
+          "measurements": {},
+          "design": {
+            "collarStyle": "BAIN",
+            "cuffStyle": "SQUARE",
+            "damanStyle": "SQUARE",
+            "pockets": [
+              "FRONT",
+              "SIDE",
+              "SHALWAR"
+            ],
+            "extras": [
+              "DOUBLE_STITCH"
+            ]
+          }
+        }
+      ],
+      "totalAmount": 2790,
+      "advanceAmount": 0,
+      "balanceAmount": 2790,
+      "paymentMethod": "CASH",
+      "specialInstructions": "",
+      "tailoringNotes": "",
+      "createdAt": 1791183644579,
+      "updatedAt": 1791191591102,
+      "verificationCode": "DZ-BGCWWR",
+      "tamperHash": "a3655b8ccc1cfc810f4f2e9882e191499fe8a215d80fe8d116e29ac3f20ddfd0"
+    },
+    {
+      "id": "ord_1790945087299",
+      "slipNumber": 3,
+      "customerId": "cust_1790945087262",
+      "customerPhone": "98374934734",
+      "customerName": "JDHFKJHDF",
+      "bookingDate": "02/10/2026",
+      "returnDate": "09/10/2026",
+      "status": "BOOKED",
+      "items": [
+        {
+          "id": "item_1790945087299",
+          "garmentType": "SHALWAR_KAMEEZ",
+          "recipientTag": "For Myself",
+          "quantity": 1,
+          "unitRate": 2500,
+          "measurements": {},
+          "design": {
+            "collarStyle": "BAIN",
+            "cuffStyle": "SQUARE",
+            "damanStyle": "SQUARE",
+            "pockets": [
+              "FRONT",
+              "SIDE",
+              "SHALWAR"
+            ],
+            "extras": [
+              "DOUBLE_STITCH",
+              "STEEL_BUTTON"
+            ]
+          }
+        }
+      ],
+      "totalAmount": 2500,
+      "advanceAmount": 0,
+      "balanceAmount": 2500,
+      "paymentMethod": "CASH",
+      "specialInstructions": "JALDI BNANA HA 2 DIN KA ANDAR",
+      "tailoringNotes": "ZYADA FIT HONA CAHYYA",
+      "createdAt": 1790945087299,
+      "updatedAt": 1790945087299,
+      "verificationCode": "DZ-DZVQ37",
+      "tamperHash": "b622ed7effcffcd399c3daa4245b69d134b380e44c9ec307a68000704b9c674d"
+    },
+    {
+      "id": "ord_1790944953070",
+      "slipNumber": 2,
+      "customerId": "cust_1790944953039",
+      "customerPhone": "03123456789",
+      "customerName": "ABCD XYZ",
+      "bookingDate": "02/10/2026",
+      "returnDate": "09/10/2026",
+      "status": "READY",
+      "items": [
+        {
+          "id": "item_1790944953070",
+          "garmentType": "SHALWAR_KAMEEZ",
+          "recipientTag": "For Myself",
+          "quantity": 1,
+          "unitRate": 2500,
+          "measurements": {
+            "lambai": 58,
+            "asteen": 5.2,
+            "teera": 81,
+            "collar": 5.2,
+            "chaati": 32,
+            "kamar": 12,
+            "ghera": 2,
+            "shalwarLambai": 14,
+            "paicha": 20,
+            "cuffWidth": 6,
+            "pattiWidth": 2
+          },
+          "design": {
+            "collarStyle": "BAIN",
+            "cuffStyle": "SQUARE",
+            "damanStyle": "SQUARE",
+            "pockets": [
+              "FRONT",
+              "SIDE",
+              "SHALWAR"
+            ],
+            "extras": [
+              "DOUBLE_STITCH"
+            ]
+          }
+        }
+      ],
+      "totalAmount": 2500,
+      "advanceAmount": 0,
+      "balanceAmount": 2500,
+      "paymentMethod": "CASH",
+      "specialInstructions": "",
+      "tailoringNotes": "",
+      "createdAt": 1790944953070,
+      "updatedAt": 1791191831359,
+      "verificationCode": "DZ-CX7HL4",
+      "tamperHash": "6e00c92c7068d057ddd3876307b42ae1582ddfec463522899db94a07773b2882"
+    },
+    {
+      "id": "ord_sample_video_1",
+      "slipNumber": 1,
+      "verificationCode": "DZ-7K4P92",
+      "customerId": "cust_rameez_gondal",
+      "customerPhone": "03338889973",
+      "customerName": "رمیز گوندل",
+      "bookingDate": "27/09/2026",
+      "returnDate": "04/10/2026",
+      "status": "BOOKED",
+      "items": [
+        {
+          "id": "item_1",
+          "garmentType": "SHALWAR_KAMEEZ",
+          "recipientTag": "اپنے لیے",
+          "quantity": 1,
+          "unitRate": 2500,
+          "measurements": {
+            "lambai": 43,
+            "asteen": 24.5,
+            "teera": 17.5,
+            "collar": 15.5,
+            "chaati": 44,
+            "kamar": 42,
+            "ghera": 46,
+            "shalwarLambai": 40,
+            "paicha": 8,
+            "cuffWidth": 6,
+            "pattiWidth": 2.5
+          },
+          "design": {
+            "collarStyle": "BAIN",
+            "cuffStyle": "SQUARE",
+            "damanStyle": "SQUARE",
+            "pockets": [
+              "FRONT",
+              "SIDE",
+              "SHALWAR"
+            ],
+            "extras": [
+              "DOUBLE_STITCH"
+            ]
+          }
+        }
+      ],
+      "totalAmount": 2500,
+      "advanceAmount": 500,
+      "balanceAmount": 2000,
+      "paymentMethod": "CASH",
+      "specialInstructions": "بھائی کی شادی ہے، اس لیے سوٹ جلدی چاہیے، براہ کرم دیر نہ ہو۔",
+      "tailoringNotes": "کرتا اسمارٹ فٹ، صاف ستھری سلائی، مناسب کف و پٹی اور شلوار نارمل فٹنگ میں ہو۔ مجموعی فٹنگ جسم کے مطابق ہو۔",
+      "createdAt": 1791011864043,
+      "updatedAt": 1791011864043,
+      "tamperHash": "f58d0437c8b6df5b74797e7e0394e7ec81f3bbe710991286a3b9e36499352de1"
+    }
+  ],
+  "customers": [
+    {
+      "id": "cust_1790944953039",
+      "phone": "03123456789",
+      "name": "ABCD XYZ",
+      "createdAt": 1790944953039,
+      "totalOrders": 2
+    },
+    {
+      "id": "cust_1790945087262",
+      "phone": "98374934734",
+      "name": "JDHFKJHDF",
+      "createdAt": 1790945087262,
+      "totalOrders": 1
+    },
+    {
+      "id": "cust_1791183644554",
+      "phone": "42423234423",
+      "name": "24342432",
+      "createdAt": 1791183644554,
+      "totalOrders": 1
+    },
+    {
+      "id": "cust_1791183781158",
+      "phone": "ewfsfsfa",
+      "name": "fssfas",
+      "createdAt": 1791183781158,
+      "totalOrders": 1
+    },
+    {
+      "id": "cust_rameez_gondal",
+      "phone": "03338889973",
+      "name": "رمیز گوندل",
+      "createdAt": 1791011864041,
+      "totalOrders": 1
+    }
+  ],
+  "migrationStatus": {
+    "migrated": true,
+    "migratedAt": 1791445395529,
+    "totalOrders": 5,
+    "totalCustomers": 5
+  }
+}

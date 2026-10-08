@@ -1,0 +1,6 @@
+{
+  "name": "RMG Darzi POS - Digital Tailor Shop System",
+  "description": "Production-grade digital tailoring management POS, offline measurement engine, thermal printer ESC/POS tickets, and bilingual Urdu-English workflow.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
