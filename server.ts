@@ -39,10 +39,9 @@ import {
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-async function startServer() {
+export async function createApp({ serveFrontend = true }: { serveFrontend?: boolean } = {}) {
   loadStore();
   const app = express();
-  const PORT = 3000;
 
   app.use(express.json({ limit: '15mb' }));
 
@@ -668,25 +667,35 @@ async function startServer() {
   });
 
   // --- VITE MIDDLEWARE / STATIC ASSETS ---
-  if (process.env.NODE_ENV === 'production') {
-    app.use(express.static(path.resolve(__dirname, 'dist')));
-    app.get('*', (_req: Request, res: Response) => {
-      res.sendFile(path.resolve(__dirname, 'dist', 'index.html'));
-    });
-  } else {
-    const vite = await createViteServer({
-      server: { middlewareMode: true },
-      appType: 'spa'
-    });
-    app.use(vite.middlewares);
+  if (serveFrontend) {
+    if (process.env.NODE_ENV === 'production') {
+      app.use(express.static(path.resolve(__dirname, 'dist')));
+      app.get('*', (_req: Request, res: Response) => {
+        res.sendFile(path.resolve(__dirname, 'dist', 'index.html'));
+      });
+    } else {
+      const vite = await createViteServer({
+        server: { middlewareMode: true },
+        appType: 'spa'
+      });
+      app.use(vite.middlewares);
+    }
   }
 
+  return app;
+}
+
+async function startServer() {
+  const app = await createApp();
+  const PORT = 3000;
   app.listen(PORT, '0.0.0.0', () => {
     console.log(`[Darzify Online POS] Server running on http://0.0.0.0:${PORT}`);
   });
 }
 
-startServer().catch(err => {
-  console.error('[Darzify Server] Failed to initialize:', err);
-  process.exit(1);
-});
+if (process.argv[1] && path.resolve(process.argv[1]) === __filename) {
+  startServer().catch(err => {
+    console.error('[Darzify Server] Failed to initialize:', err);
+    process.exit(1);
+  });
+}
